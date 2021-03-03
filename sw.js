@@ -7,10 +7,10 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
+    //'/',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
     'img/avatars/cropped-logo-125-x60-3.png',
     'img/avatars/entradas.jpg',
     'img/avatars/pizzas.png',
@@ -21,15 +21,15 @@ const APP_SHELL = [
     'img/avatars/alitas.png',
     'img/avatars/boneless.png',
     'img/avatars/postres.png',
-    '/js/app.js',
-    '/js/sw-utils.js'
+    'js/app.js',
+    'js/sw-utils.js'
 ];
 const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-    '/css/animate.css',
-    '/js/libs/jquery.js'
+    'css/animate.css',
+    'js/libs/jquery.js'
 ];
 
 

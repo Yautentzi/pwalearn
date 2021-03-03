@@ -11,6 +11,12 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    /* Android */
+    overscroll-behavior-y: contain;
+    /* iOS */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
@@ -480,13 +486,13 @@ and (-webkit-device-pixel-ratio : 3) {
 }
 
 .seleccion-avatar {
-  width: 150px;
+  width: 132px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   border-radius: 8px;
-  height: 115px !important;
+  height: 110px !important;
   border: 2px solid #000000;
 }
 
